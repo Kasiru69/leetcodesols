@@ -8,6 +8,7 @@ public class LeetCode_3066{
             long it=pq.poll();
             long a=it;
             if(a>=k) break;
+            //yoooo
             ans++;
             if(pq.size()==0) break;
             it=pq.poll();
